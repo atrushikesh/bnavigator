@@ -1,1 +1,1 @@
-# bnavigator
+# B-Navigator App Project
