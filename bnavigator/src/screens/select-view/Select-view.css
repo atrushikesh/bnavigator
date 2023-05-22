@@ -1,0 +1,6 @@
+.container-view{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-between;
+}

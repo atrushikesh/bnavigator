@@ -1,0 +1,12 @@
+.l1{
+    line-height: normal;
+    margin: 0px;
+}
+
+.from-to-display-bar{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    width: max-content;
+    margin: 0px auto;
+}

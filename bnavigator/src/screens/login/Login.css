@@ -1,0 +1,55 @@
+.container-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-login{
+    /* margin-top: 3em; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+#phone_number{
+    margin-top: 20px;
+}
+
+#form-login-caption{
+    margin-top: 10px;
+}
+
+#lets-get-started{
+    margin-top: 4.375em;
+}
+
+#login-content-box{
+    height: 62vh;
+}
+
+.opposite-arrows-img{
+    height: 1em;
+    margin-inline: 0.5em;
+}
+
+.cta-login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 2em;
+    margin-top: 3.4375em;
+}
+
+@media screen and (max-width:400px) {
+    .login-hero-box{
+        display: none;
+    }   
+
+    #lets-get-started{
+        margin-top: 0;
+    }
+
+    .hr-1{
+        display: none;
+    }
+}

@@ -1,0 +1,13 @@
+export { default as Start } from './start/Start';
+export { default as Login } from './login/Login';
+export { default as Layout } from './layout/Layout'
+export { default as Select_view } from './select-view/Select-view';
+export { default as Otp } from './OTP/Otp';
+export { default as Home_sc } from './Home-sc/Home-sc';
+export { default as Switch_window } from './Switch-window/Switch-window';
+export { default as My_Ride } from './My-Ride/My-Ride';
+export { default as Route_sc } from './Route-sc/Route-sc';
+export { default as Settings_sc } from './Settings-sc/Settings-sc';
+export { default as Route_2_sc } from './Route-2-sc/Route-2-sc';
+export { default as Wallet } from './Wallet/Wallet';
+export { default as Test } from './test/Test';

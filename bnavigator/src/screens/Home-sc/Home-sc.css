@@ -1,0 +1,32 @@
+.dot-box{
+    min-width: 10vw;
+    margin: 0px auto;
+}
+
+.dot{
+    margin-top: 10px;
+    height: 6px;
+    width: 6px;
+    color: var(--ash);
+    background-color: var(--ash);
+    border-radius: 1em;
+}
+
+.navigator-details{
+    height: 80px;
+}
+
+.l0{
+    line-height: normal;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.l1{
+    line-height: normal;
+    margin: 0px;
+}
+
+.text-align-center{
+    text-align: center;
+}

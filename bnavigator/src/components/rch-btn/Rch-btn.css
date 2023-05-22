@@ -1,0 +1,11 @@
+.rch-yellow{
+    background-color: var(--yellow);
+    padding: 1.125em;
+    border-radius: 1em;
+}
+
+.rch-yellow p{
+    line-height: 100%;
+    margin: 0px;
+    text-align: center;
+}

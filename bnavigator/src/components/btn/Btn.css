@@ -1,0 +1,233 @@
+.btn-primary{
+    font-size: var(--f16);
+    font-weight: 600;
+    font-family: var(--i-font);
+    color: var(--black);
+
+    min-width: -webkit-fill-available;
+    
+    text-decoration: none;
+    text-align: center;
+    
+    border-style: none;
+    border-radius: var(--s16);
+    background-color: var(--white);
+    
+    padding: 1.25em 7em;
+    cursor: pointer;
+}
+
+.btn-secondary{
+    font-size: var(--f16);
+    font-weight: 600;
+    font-family: var(--i-font);
+    color: var(--black);
+    
+    min-width: -webkit-fill-available;
+
+    text-decoration: none;
+    text-align: center;
+    
+    border-style: none;
+    border-radius: var(--s16);
+    background-color: var(--ash);
+    
+    padding: 1.25em 7em;
+    cursor: pointer;
+}
+
+.btn-nude-primary{
+    font-size: var(--f18);
+    font-weight: 600;
+    font-family: monospace;
+    color: var(--white);
+    
+    min-width: -webkit-fill-available;
+    text-align: left;
+    text-decoration: none;
+
+    border-style: none;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.btn-nude-secondary{
+    font-size: var(--f18);
+    font-weight: 600;
+    font-family: monospace;
+    color: var(--ash);
+    
+    min-width: -webkit-fill-available;
+
+    text-decoration: none;
+
+    border-style: none;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.btn-nude-dark{
+    font-size: var(--f18);
+    font-weight: 600;
+    font-family: monospace;
+    color: var(--black);
+    
+    min-width: -webkit-fill-available;
+
+    text-decoration: none;
+
+    border-style: none;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+@media screen and (max-width:400px) {
+    .btn-primary{
+        padding: 1.25em 6em;
+    }
+
+    .btn-secondary{
+        padding: 1.25em 6em;
+    }
+}
+
+.btn-primary-circular{
+    background-color: var(--white);
+    border-radius: 100px;
+    aspect-ratio: 1;
+    height: 2.8125em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-secondary-circular{
+    background-color: var(--ash);
+    border-radius: 100px;
+    aspect-ratio: 1;
+    height: 2.8125em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-toggle-container{
+    background-color: var(--midnight-dark);
+    border-radius: 100px;
+    width: fit-content;
+}
+
+.btn-toggle-off{
+    background-color: var(--midnight-dark);
+    border-radius: 100px;
+    padding: var(--s14) 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-toggle-on{
+    background-color: var(--white);
+    border-radius: 100px;
+    padding: var(--s14) 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-btn-nude{
+    border: 1px solid var(--white);
+    background-color: transparent;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--s14) var(--s18);
+}
+
+.sub-btn-primary{
+    border: 1px solid var(--white);
+    background-color: var(--white);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--s14) var(--s18);
+}
+
+.btn-mini-primary{
+    font-size: var(--f16);
+    font-weight: 600;
+    font-family: var(--i-font);
+    color: var(--black);
+    
+    text-decoration: none;
+    text-align: center;
+    
+    border-style: none;
+    border-radius: 0.5em;
+    background-color: var(--white);
+    
+    padding: 0.5em 0.75em;
+    cursor: pointer;   
+}
+
+.btn-mini-secondary{
+    font-size: var(--f16);
+    font-weight: 600;
+    font-family: var(--i-font);
+    color: var(--black);
+    
+    text-decoration: none;
+    text-align: center;
+
+    width: max-content;
+    
+    border-style: none;
+    border-radius: 0.5em;
+    background-color: var(--ash);
+    
+    padding: 0.5em 0.75em;
+    cursor: pointer;   
+}
+
+.btn-mini-yellow{
+    font-size: var(--f16);
+    font-weight: 600;
+    font-family: var(--i-font);
+    color: var(--black);
+    
+    text-decoration: none;
+    text-align: center;
+
+    width: max-content;
+    
+    border-style: none;
+    border-radius: 0.5em;
+    background-color: var(--yellow);
+    
+    padding: 0.5em 0.75em;
+    cursor: pointer;   
+}
+
+.btn-mini-length-yellow{
+    font-size: var(--f16);
+    font-weight: 600;
+    font-family: var(--i-font);
+    color: var(--black);
+    
+    text-decoration: none;
+    text-align: center;
+
+    min-width: -webkit-fill-available;
+    
+    border-style: none;
+    border-radius: 0.5em;
+    background-color: var(--yellow);
+    
+    padding: 0.5em 0.75em;
+    cursor: pointer;
+}

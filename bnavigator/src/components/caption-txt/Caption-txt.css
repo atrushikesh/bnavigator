@@ -1,0 +1,25 @@
+.caption-txt{
+    display: inline-block;
+    font-family: var(--i-font);
+    font-size: var(--f13);
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1%;
+    color: var(--ash);
+    width: fit-content;
+    margin: 0px auto;
+}
+
+.caption-txt a{
+    text-decoration: underline;
+    line-height: auto;
+}
+
+.caption-txt-center{
+    display: flex;
+    font-family: var(--i-font);
+    font-size: 13px;
+    color: var(--ash);
+    text-align: center;
+    margin: 0px auto;
+}
